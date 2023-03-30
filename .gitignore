@@ -1,0 +1,6 @@
+assignment/texFiles/
+
+# datasets
+*.csv
+*.data
+*.xlsx
