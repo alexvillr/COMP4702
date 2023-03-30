@@ -4,3 +4,4 @@ assignment/texFiles/
 *.csv
 *.data
 *.xlsx
+!assignment/datasets/*.xlsx
