@@ -1,7 +1,8 @@
-assignment/texFiles/
+assignment/texFiles/*
+!assignment/texFiles/Assignment.pdf
 
 # datasets
 *.csv
 *.data
 *.xlsx
-!assignment/datasets/*.xlsx
+!assignment/Datasets/Rel_2_Nutrient_file.xlsx
