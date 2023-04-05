@@ -1,8 +1,13 @@
 assignment/texFiles/*
+assignment/.ipynb_checkpoints
+prac7/CIFAR10_data
+prac7/MNIST_data
+*.mat
 !assignment/texFiles/Assignment.pdf
-
+!assignment/texFiles/Assignment.tex
 # datasets
 *.csv
 *.data
 *.xlsx
+*.gz
 !assignment/Datasets/Rel_2_Nutrient_file.xlsx
