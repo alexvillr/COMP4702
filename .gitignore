@@ -1,7 +1,8 @@
 assignment/texFiles/*
 assignment/.ipynb_checkpoints
-prac7/CIFAR10_data
-prac7/MNIST_data
+assignment/lightning*
+assignment/wandb*
+prac7/data
 *.mat
 !assignment/texFiles/Assignment.pdf
 !assignment/texFiles/Assignment.tex

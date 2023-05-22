@@ -1,9 +1,19 @@
 \documentclass[12pt,a4paper]{article}
 
-\usepackage{courierten}
+\usepackage{mathtools}
+\usepackage{minted}
+\usepackage{txfonts}
+\usepackage{xcolor} % to access the named colour LightGray
 \usepackage{geometry}
-\usepackage{amsmath}
-\usepackage{graphicx}
+\definecolor{LightGray}{gray}{0.9}
+
+\geometry{
+a4paper,
+left=20mm,
+right=20mm,
+top=20mm,
+bottom=20mm
+}
 
 \title{Nutrients and Their Impacts}
 \author{Alex Viller, 45375325}
@@ -11,4 +21,20 @@
 
 \begin{document}
     \maketitle
-\end{document}
+
+    \clearpage
+
+    \begin{minted}
+        [
+        frame=lines,
+        framesep=2mm,
+        baselinestretch=1.2,
+        bgcolor=LightGray,
+        fontsize=\footnotesize,
+        linenos
+        ]
+        {python}
+        def showPrint():
+            print("Hello World!")
+    \end{minted}
+\end{document}iedied
