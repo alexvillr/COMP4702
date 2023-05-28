@@ -13,6 +13,7 @@ prac7/data
 *.xlsx
 *.gz
 !assignment/Datasets/Rel_2_Nutrient_file.xlsx
+!assignment/texFiles/images/
 !assignment/Datasets/Australian_Health_Survey_Classification_System.xlsx
 assignment/Nutrition_Assignment_/0ix2o056/checkpoints/epoch=20-step=1386.ckpt
 assignment/Nutrition_Assignment_/0izbdxv5/checkpoints/epoch=23-step=1344.ckpt
