@@ -2,14 +2,16 @@
 does svm things
 """
 import math
-import pandas as pd
+
 import matplotlib.pyplot as plt
-from tqdm import tqdm
-from sklearn.svm import SVC
+import pandas as pd
+from sklearn.metrics import (ConfusionMatrixDisplay, accuracy_score,
+                             confusion_matrix)
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
+from sklearn.svm import SVC
+from tqdm import tqdm
 
 df = pd.read_csv("./prac10/datasets/ionosphere.csv")
 df.dropna()
